@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: wrap;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: center;
+    flex-direction: wrap;
+}
+
+button {
+
+    font-size: 40px;
+    background-color: aqua;
+}
+
+#number-input {
+    font-size: 30px;
+    background-color: turquoise;
+}

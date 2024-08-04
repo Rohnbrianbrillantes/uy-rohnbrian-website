@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function sum() {
+                var x = Number(document.getElementById('x').value);
+                var y = Number(document.getElementById('y').value);
+
+                document.getElementById('sum').innerHTML = x + y;
+                document.getElementById('difference').innerHTML =  x - y;
+                document.getElementById('product').innerHTML =  x * y;
+                document.getElementById('qoutient').innerHTML =  x / y;
+            }
+        </script>
+
+        <body>
+            <p>First Number:</p>
+            <input type="text" id="x">
+            <p>Second Number:</p>
+            <input type="text" id="y">
+            <button type="button" onclick="sum()">Compute</button>
+            
+            <p>The sum is:</p>
+            <p id="sum"></p>
+            <p>The difference is:</p>
+            <p id="difference"></p>
+            <p>The product is:</p>
+            <p id="product"></p>
+            <p>The qoutient is:</p>
+            <p id="qoutient"></p>
+
+
+
+        </body>
+    </head>
+</html>

@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    /*justify-content: space-between;*/
+    /*justify-content: end;*/
+    /*justify-content: start;*/
+    /*justify-content: center;*/
+    /*flex-direction:column;*/
+    /*flex-wrap: wrap-reverse;*/
+    background-color: black;
+}
+
+.flex-container>div {
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
